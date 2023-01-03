@@ -1,0 +1,76 @@
+.container{
+    background: beige;
+
+    /* will fill 100% of the parent's height */
+    /* height: 100%; */
+
+    /* I will use all the visible viewport height regardless of parent. */
+    height: 100vh;
+
+    /* Now you're a flex box */
+    display: flex;
+
+    /* horizontal axis : row, row-reverse */
+    /* vertical axis : column, column-reverse */
+    flex-direction: row;
+
+
+    /* nowrap : full */
+    /* wrap, wrap-revers : automatically move to the next line */
+    flex-wrap: wrap;
+
+    /* Set flex-direction and flex-wrap together */
+    /* flex-flow: column nowrap */
+
+    /* justify-content determines how items are laid out */
+    /* How to place it on the main axis */
+    /* The values are flex-start, flex-end, space-around, space-evenly, space-between */
+    /* Unlike the reverse of flex-wrap, flex-end maintains the order of items but arranges them to the right (or to the bottom). */
+    /* justify-content: space-around; */
+
+
+    /* Property values that position items on the opposite axis */
+    /* align-items: center; */
+
+    /* Justify-content aligns items on the main axis, 
+    while align-content specifies items on the opposite axis. */
+    /* align-content: center; */
+    
+  }
+  
+  .item{
+    width: 3rem;
+    height: 3rem;  
+    border: 1px solid black;
+  }
+  
+  .item1{
+    background: #ef9a9a
+  }
+  .item2{
+    background: #f48fb1
+  }
+  .item3{
+    background: #ce93d8
+  }
+  .item4{
+    background: #b39ddb
+  }
+  .item5{
+    background: #90caf9
+  }
+  .item6{
+    background: #a5d6a7
+  }
+  .item7{
+    background: #b23adc
+  }
+  .item8{
+    background: #f3a267
+  }
+  .item9{
+    background: #f2345f
+  }
+  .item10{
+    background: #4e44b6
+  }
